@@ -17,11 +17,11 @@
             <!-- title tag: when hover says what it is -->
         </div>
         <div>
-            <ol>
+            <ul>
                 <li>John Doe</li>
                 <li>27/06/1993</li>
                 <li>Software Engineering</li>
-            </ol>
+            </ul>
         </div>
         <div>
             <strong>2.65</strong>
@@ -48,34 +48,36 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>System modeling</td>
+                    <td> <a href="https://courses.cs.ut.ee/2019/gamedev/fall">System modeling</a> </td>
                     <td>1</td>
                     <td>85</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Object-oriented programming</td>
+                    <td> <a href="https://courses.cs.ut.ee/2019/cg/fall"> Object-oriented programming</a></td>
                     <td>2</td>
                     <td>99</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>Estonian language Level A2</td>
+                    <td><a href="https://courses.cs.ut.ee/2019/designalg/fall">Estonian language Level A2</a></td>
                     <td>2</td>
                     <td>65</td>
                 </tr>
             </tbody>
-        </table>
-        <tfoot>
-            <tr>
-                <td></td>
-                <td></td>
-                <td><Avarage/td>
+            <tfoot>
+                <tr>
                     <td></td>
+                    <td></td>
+                    <td>Avarage</td>
+                    <td> 82.75</td>
                 </tr>
             </tfoot>
-        </section>
-        <section>
+        </table>
+    </section>
+    <section>
+        <fieldset>
+            <legend> <h3>Add a New Course Here!</h3></legend>
             <form action="POST"> 
                 <div>
                     <label for="name">Course Names</label> <br>
@@ -87,20 +89,24 @@
                 </div>
                 <div>
                     <label for="grade">Grade</label> <br>
-                    <input type="text" id="grade" name="grade">
+                    <input type="text" id="grade" name="grade"> <br>
+                </div>
+                <div>
+                    <input type="submit">
                 </div>
             </form>
-        </section>
-        
-        <footer>  <!-- on webside it is the place where we add contact map or ddelivery information -->
-            <ul>
-                <li>
-                    <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
-                </li>
-                <li>
-                    <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
-                </li>
-            </ul>
-        </footer>
-    </body>
-    </html>
+        </fieldset>
+    </section>
+    
+    <footer>  <!-- on webside it is the place where we add contact map or ddelivery information -->
+        <ul>
+            <li>
+                <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
+            </li>
+            <li>
+                <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
